@@ -6,8 +6,11 @@ def line(array)
   else 
     arr = []
     array.each do |name|
-      arr << 
-    puts "The line is currently: #{array.pop}"
+      i = 1
+      arr << "#{i}. #{name}"
+      i += 1
+    end
+    puts "The line is currently: #{arr}"
   end
 end
 
