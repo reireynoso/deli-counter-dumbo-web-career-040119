@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each do |names| 
-      print names
+      puts names
     end
   end
 end
