@@ -4,9 +4,10 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else 
+    puts "The line is currently: "
     i = 0;
     until i == array.length
-      puts "The line is currently: #{i + 1}. #{array[i]}"
+      print "#{i + 1}. #{array[i]}"
       i += 1
     end
   end
