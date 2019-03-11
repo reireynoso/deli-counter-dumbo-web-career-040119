@@ -8,9 +8,9 @@ def line(array)
     i = 0
     array.each do |name|
       i += 1
-      string << "#{i}. #{name}"
+      string << " #{i}. #{name}"
     end
-    puts "The line is currently: #{string}"
+    puts "The line is currently:#{string}"
   end
 end
 
