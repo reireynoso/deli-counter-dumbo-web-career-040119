@@ -4,6 +4,8 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else 
+    arr = []
+    
     puts "The line is currently: #{array.pop}"
   end
 end
