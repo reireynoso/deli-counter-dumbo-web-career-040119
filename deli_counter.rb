@@ -5,7 +5,8 @@ def line(array)
     puts "The line is currently empty."
   else 
     arr = []
-    
+    array.each do |name|
+      arr << 
     puts "The line is currently: #{array.pop}"
   end
 end
