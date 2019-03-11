@@ -5,10 +5,10 @@ def line(array)
     puts "The line is currently empty."
   else 
     arr = []
+    i = 0
     array.each do |name|
-      i = 1
-      arr << "#{i}. #{name}"
       i += 1
+      arr << "#{i}. #{name}"
     end
     puts "The line is currently: #{arr}"
   end
