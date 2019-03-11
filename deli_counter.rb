@@ -4,13 +4,13 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else 
-    arr = ""
+    string = ""
     i = 0
     array.each do |name|
       i += 1
-      arr << "#{i}. #{name}"
+      string << " #{i}. #{name}"
     end
-    puts "The line is currently: #{arr}"
+    puts "The line is currently: #{string}"
   end
 end
 
